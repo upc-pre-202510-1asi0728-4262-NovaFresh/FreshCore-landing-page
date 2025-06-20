@@ -1,2 +1,1 @@
-# FreshCore-landing-page
-FreshCore Landing Page by NovaFresh
+# FreshCore Landing Page by NovaFresh
