@@ -3,9 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio - NovaFresh</title>
+    <title>Inicio - FreshCore</title>
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Jost:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 </head>
-<body>
-    
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51" class="bg-white p-0">
+    <!-- Navbar & Hero Start -->
+    <div class="container-xxl p-0" id="home">
+        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+            <a href="" class="navbar-brand p-0">
+                <h1 class="m-0" data-en="FreshCore" data-es="FreshCore">FreshCore</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav mx-auto py-0">
+                    <a href="#home" class="nav-item nav-link active" data-en="Home" data-es="Inicio">Home</a>
+                    <a href="#about" class="nav-item nav-link" data-en="About" data-es="Acerca de">About</a>
+                    <a href="#feature" class="nav-item nav-link" data-en="Feature" data-es="Características">Feature</a>
+                    <a href="#pricing" class="nav-item nav-link" data-en="Pricing" data-es="Precios">Pricing</a>
+                    <a href="#review" class="nav-item nav-link" data-en="Review" data-es="Opiniones">Review</a>
+                    <a href="#contact" class="nav-item nav-link" data-en="Contact" data-es="Contacto">Contact</a>
+                </div>
+
+                <!-- Interruptor de idioma -->
+                <label class="label ms-3" id="languageLabel">
+                    <span id="languageText">EN</span> <!-- Texto que cambiará -->
+                    <div class="switch">
+                        <input id="languageToggle" class="toggle-state" type="checkbox" name="check" value="check">
+                        <div class="slider"></div>
+                    </div>
+                </label>
+
+            </div>
+        </nav>
+
+        <div class="container-xxl bg-primary hero-header">
+            <div class="container px-lg-5">
+                <div class="row g-5">
+                    <div class="col-lg-8 text-center text-lg-start">
+                        <h1 class="text-white mb-4 animated slideInDown" data-en="The Intelligent Solution for the Preservation of Supplies in Restaurants" data-es="La solución inteligente para la conservación de suministros en restaurantes">The Intelligent Solution for the Preservation of Supplies in Restaurants</h1>
+                        <p class="text-white pb-3 animated slideInDown" data-en="FreshCore is a smart container with IoT technology, designed to optimally preserve food in restaurants." data-es="FreshCore es un contenedor inteligente con tecnología IoT, diseñado para preservar óptimamente los alimentos en restaurantes.">FreshCore is a smart container with IoT technology, designed to optimally preserve food in restaurants.</p>
+                        <a href="https://green-sky-02d70500f.5.azurestaticapps.net/" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill me-3 animated slideInLeft" data-en="Get Started" data-es="Comenzar">Get Started</a>
+                        <a href="#contact" class="btn btn-secondary-gradient py-sm-3 px-4 px-sm-5 rounded-pill animated slideInRight" data-en="Contact Us" data-es="Contáctanos">Contact Us</a>
+                    </div>
+                    <div class="col-lg-4 justify-content-center justify-content-lg-end wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="owl-carousel screenshot-carousel">
+                            <img class="img-fluid" src="img/screen1.png" alt="">
+                            <img class="img-fluid" src="img/screen2.png" alt="">
+                            <img class="img-fluid" src="img/screen3.png" alt="">
+                            <img class="img-fluid" src="img/screen4.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar & Hero End -->
 </body>
 </html>
