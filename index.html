@@ -31,6 +31,15 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51" class="bg-white p-0">
+
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only" data-en="Loading..." data-es="Cargando...">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
     <!-- Navbar & Hero Start -->
     <div class="container-xxl p-0" id="home">
         <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
@@ -84,6 +93,44 @@
         </div>
     </div>
     <!-- Navbar & Hero End -->
+
+    <!-- About Start -->
+    <div class="container-xxl py-5" id="about">
+        <div class="container py-5 px-lg-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="text-primary-gradient fw-medium" data-en="About App" data-es="Acerca de la App">About App</h5>
+                    <h1 class="mb-4" data-en="#1 In Intelligent Service for the Preservation of Supplies" data-es="#1 en servicio inteligente para la conservación de suministros">#1 In Intelligent Service for the Preservation of Supplies</h1>
+                    <p class="mb-4" data-en="DittoBox is the ultimate solution for restaurants looking to optimize food preservation. With advanced IoT technology, real-time monitoring and personalized recommendations, DittoBox guarantees freshness and reduces input waste." data-es="DittoBox es la solución definitiva para restaurantes que buscan optimizar la conservación de alimentos. Con tecnología IoT avanzada, monitoreo en tiempo real y recomendaciones personalizadas, DittoBox garantiza frescura y reduce el desperdicio de insumos.">DittoBox is the ultimate solution for restaurants looking to optimize food preservation. With advanced IoT technology, real-time monitoring and personalized recommendations, DittoBox guarantees freshness and reduces input waste.</p>
+                    <div class="row g-4 mb-4">
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
+                            <div class="d-flex">
+                                <i class="fa fa-cogs fa-2x text-primary-gradient flex-shrink-0 mt-1"></i>
+                                <div class="ms-3">
+                                    <h2 class="mb-0" data-toggle="counter-up">123</h2>
+                                    <p class="text-primary-gradient mb-0" data-en="Active Install" data-es="Instalaciones Activas">Active Install</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
+                            <div class="d-flex">
+                                <i class="fa fa-comments fa-2x text-secondary-gradient flex-shrink-0 mt-1"></i>
+                                <div class="ms-3">
+                                    <h2 class="mb-0" data-toggle="counter-up">1234</h2>
+                                    <p class="text-secondary-gradient mb-0" data-en="Clients Reviews" data-es="Reseñas de Clientes">Clients Reviews</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#feature" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill mt-3" data-en="Read More" data-es="Leer Más">Read More</a>
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-fluid wow fadeInUp" data-wow-delay="0.5s" src="img/about.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
